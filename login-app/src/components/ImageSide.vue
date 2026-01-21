@@ -59,7 +59,7 @@ const stats = [
 <style scoped>
 .login-image-side {
   flex: 1;
-  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4c1d95 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 50%, #2563eb 100%);
   position: relative;
   display: flex;
   align-items: center;
@@ -85,7 +85,7 @@ const stats = [
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 70%, rgba(236, 72, 153, 0.3) 0%, transparent 50%),
+  background: radial-gradient(circle at 30% 70%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
               radial-gradient(circle at 70% 30%, rgba(6, 182, 212, 0.3) 0%, transparent 50%);
   pointer-events: none;
 }

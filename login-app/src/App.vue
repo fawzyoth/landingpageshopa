@@ -21,8 +21,9 @@ import LoginView from './views/LoginView.vue'
   --bg-white: #ffffff;
   --bg-light: #f8fafc;
   --bg-section: #f1f5f9;
-  --accent-pink: #ec4899;
-  --accent-violet: #a855f7;
+  --accent-blue: #3b82f6;
+  --accent-blue-dark: #1d4ed8;
+  --accent-blue-light: #60a5fa;
   --accent-cyan: #06b6d4;
   --accent-green: #10b981;
   --accent-red: #ef4444;
@@ -31,8 +32,8 @@ import LoginView from './views/LoginView.vue'
   --text-muted: #94a3b8;
   --border-light: #e2e8f0;
   --border-medium: #cbd5e1;
-  --gradient-main: linear-gradient(135deg, var(--accent-pink), var(--accent-violet));
-  --gradient-secondary: linear-gradient(135deg, var(--accent-cyan), var(--accent-violet));
+  --gradient-main: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-dark));
+  --gradient-secondary: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
   --font-heading: 'Cairo', sans-serif;
   --font-body: 'Tajawal', sans-serif;
   --radius-sm: 8px;

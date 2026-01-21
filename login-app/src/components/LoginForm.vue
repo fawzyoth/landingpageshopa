@@ -386,8 +386,8 @@ const handleForgotPassword = () => {
 
 .input-wrapper input:focus {
   outline: none;
-  border-color: var(--accent-pink);
-  box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.1);
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
 }
 
 .input-wrapper.has-error input {
@@ -410,7 +410,7 @@ const handleForgotPassword = () => {
 }
 
 .toggle-password:hover {
-  color: var(--accent-pink);
+  color: var(--accent-blue);
 }
 
 .error-text {
@@ -462,7 +462,7 @@ const handleForgotPassword = () => {
 }
 
 .forgot-password {
-  color: var(--accent-pink);
+  color: var(--accent-blue);
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none;
@@ -491,12 +491,12 @@ const handleForgotPassword = () => {
 .btn-primary {
   background: var(--gradient-main);
   color: white;
-  box-shadow: 0 10px 40px rgba(236, 72, 153, 0.25);
+  box-shadow: 0 10px 40px rgba(59, 130, 246, 0.25);
 }
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-3px);
-  box-shadow: 0 20px 50px rgba(236, 72, 153, 0.35);
+  box-shadow: 0 20px 50px rgba(59, 130, 246, 0.35);
 }
 
 .btn-primary:disabled {
@@ -590,7 +590,7 @@ const handleForgotPassword = () => {
 }
 
 .login-footer a {
-  color: var(--accent-pink);
+  color: var(--accent-blue);
   font-weight: 600;
   text-decoration: none;
 }
@@ -616,7 +616,7 @@ const handleForgotPassword = () => {
 }
 
 .back-to-home a:hover {
-  color: var(--accent-pink);
+  color: var(--accent-blue);
 }
 
 /* Transitions */
