@@ -504,6 +504,11 @@ section {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
+.feature-card.featured {
+    border-color: var(--accent-primary);
+    background: rgba(20, 184, 166, 0.05);
+}
+
 .feature-icon {
     width: 70px;
     height: 70px;
