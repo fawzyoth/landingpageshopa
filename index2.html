@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPA - منصة التجارة المباشرة على تيك توك وفيسبوك</title>
+    <meta name="description" content="SHOPA - المنصة المتكاملة للتجارة المباشرة. التقط أرقام الهواتف تلقائياً خلال بثوثك المباشرة على تيك توك وفيسبوك.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <!-- Page Switcher -->
+    <div class="page-switcher">
+        <a href="index.html" class="switcher-btn" title="التصميم الفاتح">
+            <i class="fas fa-sun"></i>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-shopping-bag"></i></span>
+                <span class="logo-text">SHOPA</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">المميزات</a>
+                <a href="#how-it-works">كيف تعمل</a>
+                <a href="#pricing">الأسعار</a>
+                <a href="#testimonials">آراء العملاء</a>
+            </div>
+            <div class="nav-actions">
+                <a href="http://localhost:5173" class="btn btn-ghost">
+                    <i class="fas fa-sign-in-alt"></i>
+                    تسجيل الدخول
+                </a>
+                <a href="#pricing" class="btn btn-primary">
+                    ابدأ مجاناً
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Centered Style -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="tag-icon">🚀</span>
+                    <span>+500 بائع يستخدمون SHOPA</span>
+                </div>
+                <h1 class="hero-title">
+                    التقط <span class="text-gradient">كل رقم</span> من البث المباشر
+                    <br>تلقائياً وبدون جهد
+                </h1>
+                <p class="hero-subtitle">
+                    SHOPA تراقب تعليقات بثك المباشر وتلتقط كل أرقام الهواتف تلقائياً.
+                    <br>وفر وقتك، زد مبيعاتك، ولا تفقد أي عميل.
+                </p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary btn-lg">
+                        <span>ابدأ تجربتك المجانية</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#how-it-works" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        <span>شاهد كيف تعمل</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2.5M+</span>
+                        <span class="stat-label">رقم تم التقاطه</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">بائع نشط</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">وقت التشغيل</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="preview-header">
+                        <div class="preview-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="preview-title">لوحة التحكم - SHOPA</span>
+                    </div>
+                    <div class="preview-content">
+                        <div class="live-badge">
+                            <span class="live-dot"></span>
+                            مباشر الآن
+                        </div>
+                        <div class="numbers-list">
+                            <div class="number-item new">
+                                <i class="fas fa-phone"></i>
+                                <span>0612345678</span>
+                                <span class="number-time">الآن</span>
+                            </div>
+                            <div class="number-item">
+                                <i class="fas fa-phone"></i>
+                                <span>0698765432</span>
+                                <span class="number-time">منذ دقيقة</span>
+                            </div>
+                            <div class="number-item">
+                                <i class="fas fa-phone"></i>
+                                <span>0654321098</span>
+                                <span class="number-time">منذ 2 دقيقة</span>
+                            </div>
+                        </div>
+                        <div class="preview-footer">
+                            <span class="capture-count"><i class="fas fa-check-circle"></i> 47 رقم تم التقاطه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">المميزات</span>
+                <h2 class="section-title">كل ما تحتاجه لنجاح تجارتك</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>التقاط فوري</h3>
+                    <p>كل رقم يُكتب في التعليقات يُحفظ في أقل من ثانية</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3>بدون تكرار</h3>
+                    <p>النظام يحذف الأرقام المكررة تلقائياً</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <h3>تصدير Excel</h3>
+                    <p>صدّر القائمة بنقرة واحدة جاهزة للاستخدام</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3>تيك توك + فيسبوك</h3>
+                    <p>ادعم المنصتين الأكثر استخداماً</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>ألعاب تفاعلية</h3>
+                    <p>عجلة الحظ وسباق التعليقات لزيادة التفاعل</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>آمن 100%</h3>
+                    <p>بياناتك محمية بأعلى معايير الأمان</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">كيف تعمل</span>
+                <h2 class="section-title">3 خطوات بسيطة للبدء</h2>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>اربط حسابك</h3>
+                        <p>اربط حسابك على تيك توك أو فيسبوك في دقيقة واحدة</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>ابدأ البث</h3>
+                        <p>افتح SHOPA وابدأ بثك المباشر كالمعتاد</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>استلم الأرقام</h3>
+                        <p>SHOPA تلتقط كل الأرقام تلقائياً وتنظمها لك</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">آراء العملاء</span>
+                <h2 class="section-title">ماذا يقول عملاؤنا</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                        <p>"SHOPA غيّرت طريقة عملي تماماً. كنت أخسر نصف الأرقام، الآن ألتقط كل شيء!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="سارة">
+                        <div class="author-info">
+                            <strong>سارة بن علي</strong>
+                            <span>متجر ملابس</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card featured">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                        <p>"وفرت 1000 دينار شهرياً كنت أدفعها لموظفين. الآن كل شيء آلي وأدق!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=8" alt="أحمد">
+                        <div class="author-info">
+                            <strong>أحمد الصالحي</strong>
+                            <span>متجر إلكترونيات</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                        <p>"ميزة حذف التكرار وحدها تستحق الاشتراك! وفرت ساعات من العمل اليومي."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=9" alt="فاطمة">
+                        <div class="author-info">
+                            <strong>فاطمة العمري</strong>
+                            <span>مستحضرات تجميل</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">الأسعار</span>
+                <h2 class="section-title">اختر الباقة المناسبة</h2>
+                <p class="section-subtitle">جميع الباقات تشمل 30 يوم ضمان استرداد المال</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Solo</h3>
+                        <div class="price">
+                            <span class="amount">79</span>
+                            <span class="currency">د.ت/شهر</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 500 رقم/شهر</li>
+                        <li><i class="fas fa-check"></i> 30 بث مباشر</li>
+                        <li><i class="fas fa-check"></i> 1 حساب تيك توك</li>
+                        <li><i class="fas fa-check"></i> تصدير Excel</li>
+                        <li class="disabled"><i class="fas fa-times"></i> الألعاب التفاعلية</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-block">اختر Solo</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">الأكثر مبيعاً</div>
+                    <div class="pricing-header">
+                        <h3>Pro Max</h3>
+                        <div class="price">
+                            <span class="amount">169</span>
+                            <span class="currency">د.ت/شهر</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> أرقام غير محدودة</li>
+                        <li><i class="fas fa-check"></i> بثوث غير محدودة</li>
+                        <li><i class="fas fa-check"></i> 3 تيك توك + 1 فيسبوك</li>
+                        <li><i class="fas fa-check"></i> تصدير Excel + طباعة</li>
+                        <li><i class="fas fa-check"></i> كل الألعاب التفاعلية</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-block">اختر Pro Max</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="amount">109</span>
+                            <span class="currency">د.ت/شهر</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 1000 رقم/شهر</li>
+                        <li><i class="fas fa-check"></i> 60 بث مباشر</li>
+                        <li><i class="fas fa-check"></i> 2 حساب تيك توك</li>
+                        <li><i class="fas fa-check"></i> تصدير Excel</li>
+                        <li class="disabled"><i class="fas fa-times"></i> الألعاب التفاعلية</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-block">اختر Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>مستعد لمضاعفة مبيعاتك؟</h2>
+                <p>انضم لأكثر من 500 بائع يحققون نتائج مذهلة</p>
+                <a href="#pricing" class="btn btn-primary btn-lg">
+                    ابدأ تجربتك المجانية الآن
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i class="fas fa-shopping-bag"></i></span>
+                        <span class="logo-text">SHOPA</span>
+                    </a>
+                    <p>المنصة المتكاملة للتجارة المباشرة</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">المميزات</a>
+                    <a href="#pricing">الأسعار</a>
+                    <a href="#testimonials">آراء العملاء</a>
+                    <a href="tel:+32465987804">تواصل معنا</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/32465987804"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SHOPA. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/32465987804" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
