@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPA - شراكة شركات التوصيل</title>
+    <meta name="description" content="انضم لشبكة شركاء SHOPA للتوصيل واحصل على آلاف العملاء الجدد شهرياً. تكامل سهل مع API وظهور مميز لعلامتك التجارية.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="delivery-styles.css">
+</head>
+<body class="delivery-page">
+    <!-- Navigation -->
+    <nav class="navbar delivery-navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-shopping-bag"></i></span>
+                <span class="logo-text">SHOPA</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="#benefits">المزايا</a>
+                <a href="#how-it-works">كيف تعمل</a>
+                <a href="#features">الخصائص</a>
+                <a href="#contact">تواصل معنا</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary nav-cta">
+                    <i class="fas fa-handshake"></i>
+                    انضم كشريك
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">الرئيسية</a>
+        <a href="#benefits">المزايا</a>
+        <a href="#how-it-works">كيف تعمل</a>
+        <a href="#features">الخصائص</a>
+        <a href="#contact">تواصل معنا</a>
+        <a href="#contact" class="btn btn-primary">انضم كشريك</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="delivery-hero">
+        <div class="delivery-hero-bg">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="delivery-hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-truck-fast"></i>
+                    شراكة التوصيل
+                </span>
+                <h1 class="delivery-hero-title">
+                    وسّع نطاق عملك مع <span class="highlight">SHOPA</span>
+                </h1>
+                <p class="delivery-hero-subtitle">
+                    انضم لشبكة شركائنا واحصل على آلاف الطلبات الجديدة شهرياً من بائعي التجارة المباشرة
+                </p>
+                <div class="delivery-hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">بائع نشط</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">طرد شهرياً</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">طلبات مستمرة</span>
+                    </div>
+                </div>
+                <div class="delivery-hero-cta">
+                    <a href="#contact" class="btn btn-light btn-lg">
+                        <i class="fas fa-handshake"></i>
+                        انضم كشريك الآن
+                    </a>
+                    <a href="#how-it-works" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        كيف تعمل الشراكة
+                    </a>
+                </div>
+            </div>
+            <div class="delivery-hero-visual">
+                <div class="delivery-mockup">
+                    <div class="mockup-screen">
+                        <div class="mockup-header">
+                            <i class="fas fa-truck"></i>
+                            <span>لوحة تحكم الشريك</span>
+                        </div>
+                        <div class="mockup-stats">
+                            <div class="m-stat">
+                                <span class="m-stat-value">127</span>
+                                <span class="m-stat-label">طلب جديد</span>
+                            </div>
+                            <div class="m-stat">
+                                <span class="m-stat-value">89</span>
+                                <span class="m-stat-label">قيد التوصيل</span>
+                            </div>
+                            <div class="m-stat success">
+                                <span class="m-stat-value">342</span>
+                                <span class="m-stat-label">تم التسليم</span>
+                            </div>
+                        </div>
+                        <div class="mockup-orders">
+                            <div class="m-order">
+                                <div class="order-info">
+                                    <span class="order-id">#12847</span>
+                                    <span class="order-location">تونس العاصمة</span>
+                                </div>
+                                <span class="order-status new">جديد</span>
+                            </div>
+                            <div class="m-order">
+                                <div class="order-info">
+                                    <span class="order-id">#12846</span>
+                                    <span class="order-location">صفاقس</span>
+                                </div>
+                                <span class="order-status pending">قيد التوصيل</span>
+                            </div>
+                            <div class="m-order">
+                                <div class="order-info">
+                                    <span class="order-id">#12845</span>
+                                    <span class="order-location">سوسة</span>
+                                </div>
+                                <span class="order-status done">تم التسليم</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-chart-line"></i>
+                    <span>نمو 200%</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-bolt"></i>
+                    <span>طلبات فورية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="delivery-benefits" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">لماذا SHOPA؟</span>
+                <h2 class="section-title">مزايا الشراكة مع <span class="gradient-text">SHOPA</span></h2>
+                <p class="section-subtitle">اكتشف كيف يمكن لشراكتنا أن تنمّي أعمالك</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>قاعدة عملاء ضخمة</h3>
+                    <p>احصل على إمكانية الوصول لأكثر من 500 بائع نشط يومياً يبحثون عن شركات توصيل موثوقة</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">+500</span>
+                        <span class="stat-text">بائع نشط</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>آلاف الطرود شهرياً</h3>
+                    <p>مستخدمونا يولّدون آلاف الطلبات يومياً تحتاج للتوصيل في كل أنحاء البلاد</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">5000+</span>
+                        <span class="stat-text">طرد/شهر</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>تكامل API سهل</h3>
+                    <p>ادمج خدماتك مباشرة مع منصتنا. البائعون يرسلون الطلبات إليك بنقرة واحدة</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">1</span>
+                        <span class="stat-text">نقرة فقط</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>ظهور مميز للعلامة</h3>
+                    <p>شعارك يظهر لكل البائعين كشريك توصيل موثوق ومعتمد من SHOPA</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-text">ظهور</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3>بدون رسوم اشتراك</h3>
+                    <p>الانضمام مجاني تماماً. ادفع فقط عمولة بسيطة على كل طرد يتم توصيله</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">0</span>
+                        <span class="stat-text">رسوم اشتراك</span>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>دعم فني مخصص</h3>
+                    <p>فريق دعم مخصص للشركاء متاح على مدار الساعة لمساعدتك</p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">24/7</span>
+                        <span class="stat-text">دعم متواصل</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">خطوات بسيطة</span>
+                <h2 class="section-title">كيف تصبح <span class="gradient-text">شريك توصيل؟</span></h2>
+                <p class="section-subtitle">انضم لشبكتنا في 4 خطوات سهلة</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3>سجّل شركتك</h3>
+                    <p>املأ نموذج التسجيل بمعلومات شركتك ومناطق التغطية</p>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>التحقق والموافقة</h3>
+                    <p>فريقنا يراجع طلبك ويتواصل معك خلال 24 ساعة</p>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>إعداد الحساب</h3>
+                    <p>نساعدك في ربط نظامك مع منصتنا وإعداد لوحة التحكم</p>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>ابدأ استقبال الطلبات</h3>
+                    <p>شركتك تظهر للبائعين وتبدأ باستقبال الطلبات فوراً</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="delivery-features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">الخصائص</span>
+                <h2 class="section-title">ما ستحصل عليه <span class="gradient-text">كشريك</span></h2>
+                <p class="section-subtitle">أدوات متكاملة لإدارة طلباتك بكفاءة</p>
+            </div>
+
+            <div class="features-showcase">
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>لوحة تحكم خاصة</h4>
+                            <p>إدارة كاملة لجميع الطلبات من مكان واحد</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>إشعارات فورية</h4>
+                            <p>تنبيهات لحظية عند وصول طلبات جديدة</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>تتبع الطرود</h4>
+                            <p>نظام تتبع متكامل في الوقت الحقيقي</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>تقارير مفصلة</h4>
+                            <p>إحصائيات وتقارير يومية وشهرية</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>تطبيق للسائقين</h4>
+                            <p>تطبيق موبايل لإدارة عمليات التوصيل</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-check">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>API متكامل</h4>
+                            <p>ربط تلقائي مع أنظمتك الحالية</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features-image">
+                    <div class="dashboard-preview">
+                        <div class="preview-header">
+                            <div class="preview-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="preview-title">لوحة تحكم الشريك</span>
+                        </div>
+                        <div class="preview-content">
+                            <div class="preview-sidebar">
+                                <div class="sidebar-item active"><i class="fas fa-home"></i></div>
+                                <div class="sidebar-item"><i class="fas fa-box"></i></div>
+                                <div class="sidebar-item"><i class="fas fa-chart-bar"></i></div>
+                                <div class="sidebar-item"><i class="fas fa-cog"></i></div>
+                            </div>
+                            <div class="preview-main">
+                                <div class="preview-stats-row">
+                                    <div class="p-stat"><span>127</span> طلب جديد</div>
+                                    <div class="p-stat"><span>89</span> قيد التوصيل</div>
+                                    <div class="p-stat success"><span>342</span> مكتمل</div>
+                                </div>
+                                <div class="preview-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="delivery-contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-badge">تواصل معنا</span>
+                    <h2 class="section-title">جاهز للانضمام <span class="gradient-text">كشريك؟</span></h2>
+                    <p class="contact-subtitle">املأ النموذج وسيتواصل معك فريقنا خلال 24 ساعة</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">البريد الإلكتروني</span>
+                                <a href="mailto:partners@shopa.tn">partners@shopa.tn</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">واتساب</span>
+                                <a href="https://wa.me/21612345678">+216 12 345 678</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">الهاتف</span>
+                                <a href="tel:+21612345678">+216 12 345 678</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="partnerForm">
+                        <div class="form-group">
+                            <label for="companyName">اسم الشركة</label>
+                            <input type="text" id="companyName" name="companyName" required placeholder="أدخل اسم شركتك">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">اسم المسؤول</label>
+                                <input type="text" id="contactName" name="contactName" required placeholder="الاسم الكامل">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+216 XX XXX XXX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required placeholder="example@company.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="coverage">مناطق التغطية</label>
+                            <input type="text" id="coverage" name="coverage" placeholder="مثال: تونس الكبرى، صفاقس، سوسة...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">رسالة إضافية (اختياري)</label>
+                            <textarea id="message" name="message" rows="3" placeholder="أخبرنا المزيد عن شركتك..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            إرسال طلب الشراكة
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="delivery-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-shopping-bag"></i></span>
+                        <span class="logo-text">SHOPA</span>
+                    </a>
+                    <p>منصة التجارة المباشرة الرائدة</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">الرئيسية</a>
+                    <a href="index.html#features">المميزات</a>
+                    <a href="index.html#pricing">الأسعار</a>
+                    <a href="#contact">تواصل معنا</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SHOPA. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
